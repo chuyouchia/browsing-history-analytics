@@ -168,19 +168,3 @@ chrome.history.search({
   maxResults: 99,
 });
 // .then(constructHistory);
-
-// TODO: listen to the chrome storage changes in intervals of 5 seconds until they are marked as completed
-
-// once completed, run another function to summarize them into major categories (hard coded)
-CATEGORIES = [
-  'sports',
-  'politics',
-  'entertainment',
-  'technology', // find things related to work versus things that aren't related to work
-  'health',
-  'finance',
-  'travel',
-  'food',
-];
-
-// then convert the categories into a pie chart, bar chart etc.
