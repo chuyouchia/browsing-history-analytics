@@ -61,6 +61,7 @@ const common = {
     // Extract CSS into separate files
     new MiniCssExtractPlugin({
       filename: '[name].css',
+      chunkFilename: 'chunk-[id].css',
     }),
   ],
 };

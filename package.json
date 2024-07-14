@@ -20,5 +20,9 @@
     "webpack": "^5.92.1",
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "chartjs-chart-graph": "^4.3.1"
   }
 }
